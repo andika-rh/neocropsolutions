@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>NCS | Karir</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css"/>
+
+		<!-- Slick -->
+		<link type="text/css" rel="stylesheet" href="../css/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="../css/slick-theme.css"/>
+
+		<!-- nouislider -->
+		<link type="text/css" rel="stylesheet" href="../css/nouislider.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="../css/style.css"/>
+
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+		<!-- HEADER -->
+		<header>
+			<!-- TOP HEADER -->
+			<div id="top-header">
+				<div class="topbar-wrapper">
+					<button class="topbar-btn active"><i class="fa fa-map-marker"></i> INDONESIA | IND</button>
+					<button class="topbar-btn active"><i class=""></i> HUBUNGI KAMI</button>
+				</div>
+			</div>
+			<!-- /TOP HEADER -->
+
+			<!-- MAIN HEADER -->
+			<div id="main-header">
+				<div class="container">
+					<div class="row align-items-center">
+
+						<!-- NAV -->
+						<div class="col-md-8">
+							<nav id="nav" class="navbar-nav">
+								<ul class="main-nav nav navbar-nav">
+									<li><a href="../index.html">HOME</a></li>
+									<li><a href="tentang_kami.html">TENTANG KAMI</a></li>
+									<li><a href="produk.html">PRODUK</a></li>
+									<li><a href="solusi.html">SOLUSI</a></li>
+									<li><a href="berita.html">BERITA</a></li>
+									<li class="active"><a href="karir.html">KARIR</a></li>
+									<li><a href="kontak.html">KONTAK</a></li>
+								</ul>
+							</nav>
+						</div>
+
+						<!-- LOGO -->
+						<div class="col-md-4 text-right">
+							<a href="#">
+								<img src="../img/Logo (1).png" alt="NeoCrop Solutions" class="header-logo">
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- /MAIN HEADER -->
+		</header>
+		<!-- /HEADER -->
+
+		<!-- HERO SECTION -->
+		<section id="hero">
+			<div class="hero-text">
+				<h2 class="text-utama">BERITA DAN</h2><h2 class="text-highlight">ARTIKEL KAMI</h2>
+				<p>Sumber Informasi NeoCrop Solutions</p>
+			</div>
+		</section>
+		<!-- END HERO -->
+
+		<!-- BERITA SECTION -->
+		<section id="karir_utama">
+			<div class="container">
+
+				<h2 class="judul">LOWONGAN TERBARU</h2>
+
+				<!-- FILTER -->
+				<div class="filter-container">
+					<div class="filter-left">
+						<span class="filter-icon">&#9776;</span>
+						<span class="filter-text">FILTER</span>
+					</div>
+					
+					<div>
+						<div class="filter-divider"></div>
+					</div>
+
+					<div class="filter-right">
+
+						<!-- REGIONAL -->
+						<div class="kategori-box">
+							<label for="kategori">REGIONAL</label>
+							<select id="kategori">
+								<option>– ALL REGIONAL –</option>
+								<option>Philippines</option>
+								<option>Indonesia</option>
+								<option>Vietnam</option>
+							</select>
+						</div>
+
+						<!-- Button -->
+						<button class="btn-cari">SEARCH</button>
+					</div>
+				</div>
+
+				<div class="row gx-4">
+					
+					<!-- LEFT: LIST LOWONGAN -->
+					<div class="col-md-4 list-job">
+
+						<!-- ITEM 1 -->
+						<div class="job-card" onclick="
+							showDetail(
+								'Commercial Manager',
+								'Manila, Philippines',
+								'Full - Time',
+								'5 - 10 Years',
+								1,
+								'As a Commercial Manager, you will be responsible for overseeing the commercial activities...',
+								[
+									'Develop long-term commercial strategies',
+									'Work closely with regional teams',
+									'Coordinate activities with distributors',
+									'Ensure profitability and business growth'
+								]
+							)">
+							<h5>Commercial Manager</h5>
+							<div class="job-info">
+								<span>Philippines</span>
+								<span>Full - Time</span>
+							</div>
+							<div class="job-info">
+								<span>5 - 10 Years</span>
+								<span>Quota : 1</span>
+							</div>
+						</div>
+
+						<!-- DUPLICATE EXAMPLE -->
+						<div class="job-card" onclick="
+							showDetail(
+								'Senior Sales Manager',
+								'Cebu, Philippines',
+								'Full - Time',
+								'7 - 12 Years',
+								2,
+								'Responsible for leading national sales operations...',
+								[
+									'Lead sales teams',
+									'Create market expansion strategies',
+									'Build distributor partnerships',
+									'Monitor market performance'
+								]
+							)">
+							<h5>Senior Sales Manager</h5>
+							<div class="job-info">
+								<span>Philippines</span>
+								<span>Full - Time</span>
+							</div>
+							<div class="job-info">
+								<span>7 - 12 Years</span>
+								<span>Quota : 2</span>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- RIGHT: JOB DETAIL -->
+					<div class="col-md-8 job-wrapper">
+						<div class="job-detail-card">
+
+							<div class="job-detail-header">
+								<h5 id="detailTitle">Pilih lowongan di kiri</h5>
+								<button class="btn btn-apply">APPLY</button>
+							</div>
+
+							<p><strong>Type:</strong> <span id="detailType">-</span></p>
+							<p><strong>Location:</strong> <span id="detailLocation">-</span></p>
+							<p><strong>Experience:</strong> <span id="detailExperience">-</span></p>
+							<p><strong>No Of Openings:</strong> <span id="detailOpenings">-</span></p>
+
+							<h6>Job Overview</h6>
+							<p id="detailOverview">
+								Klik salah satu posisi untuk melihat detail pekerjaan.
+							</p>
+
+							<h6>Key Responsibilities:</h6>
+							<ul id="detailResponsibilities">
+								<li>-</li>
+							</ul>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		<!-- END BERITA SECTION -->
+
+
+		<!-- FOOTER -->
+		<footer id="footer">
+			<div class="footer-top">
+				<div class="container">
+					<div class="row align-items-center">
+
+						<!-- Logo + Sosmed -->
+						<div class="col-md-4">
+							<img src="../img/footer_logo.png" class="footer-logo">
+							<p class="follow">FOLLOW US</p>
+							<div class="sosial">
+								<a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+								<a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+								<a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+								<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+							</div>
+						</div>
+
+						<!-- Menu Tengah -->
+						<div class="col-md-4">
+							<ul class="footer-menu">
+								<li>TENTANG KAMI</li>
+								<li>SOLUSI</li>
+								<li>KARIR</li>
+								<li>BERITA</li>
+							</ul>
+						</div>
+
+						<!-- Contact -->
+						<div class="col-md-4 text-md-start text-center">
+							<p class="question">ADA PERTANYAAN?</p>
+							<p class="help">KAMI SIAP BANTU</p>
+							<a href="#" class="btn-contact">HUBUNGI KAMI</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-bottom">
+				<p>COPYRIGHT © 2025 NEO CROP</p>
+				<p>TERMS / CONDITIONS</p>
+				<p>PRIVACY POLICY</p>
+			</div>
+		</footer>
+		<!-- /FOOTER -->
+
+		<!-- SCRIPT -->
+		<script>
+		function showDetail(title, location, type, exp, openings, overview, responsibilities) {
+			document.getElementById("detailTitle").innerText = title;
+			document.getElementById("detailLocation").innerText = location;
+			document.getElementById("detailType").innerText = type;
+			document.getElementById("detailExperience").innerText = exp;
+			document.getElementById("detailOpenings").innerText = openings;
+			document.getElementById("detailOverview").innerText = overview;
+
+			// Update responsibilities list
+			let ul = document.getElementById("detailResponsibilities");
+			ul.innerHTML = "";
+			responsibilities.forEach(r => {
+				let li = document.createElement("li");
+				li.innerText = r;
+				ul.appendChild(li);
+			});
+		}
+		</script>
+
+		<!-- SCRIPT CARD AKTIVE -->
+		<script>
+		document.querySelectorAll(".job-card").forEach(card => {
+			card.addEventListener("click", function () {
+				document.querySelectorAll(".job-card").forEach(c => c.classList.remove("active"));
+				this.classList.add("active");
+			});
+		});
+		</script>
+
+		<!-- jQuery Plugins -->
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/slick.min.js"></script>
+		<script src="../js/nouislider.min.js"></script>
+		<script src="../js/jquery.zoom.min.js"></script>
+		<script src="../js/main.js"></script>
+
+	</body>
+</html>
