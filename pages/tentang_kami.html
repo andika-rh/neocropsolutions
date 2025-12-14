@@ -41,13 +41,87 @@
 		<!-- HEADER -->
 		<header>
 			<!-- TOP HEADER -->
+			<!-- TOP HEADER -->
 			<div id="top-header">
 				<div class="topbar-wrapper">
-					<button class="topbar-btn active"><i class="fa fa-map-marker"></i> INDONESIA | IND</button>
-					<button class="topbar-btn active"><i class=""></i> HUBUNGI KAMI</button>
+					<button class="topbar-btn active" id="openRegionPopup"><i class="fa fa-map-marker"></i> INDONESIA | IND</button>
+					<button class="topbar-btn active"><a href="../pages/kontak.html">HUBUNGI KAMI</a></button>
 				</div>
 			</div>
 			<!-- /TOP HEADER -->
+
+			<!-- REGION POPUP -->
+			<div class="region-popup" id="regionPopup">
+			<div class="region-box">
+
+				<button class="region-close" id="closeRegionPopup">✕</button>
+
+				<div class="row">
+				<!-- LEFT -->
+				<div class="col-md-4">
+					<h4 class="region-title">
+					Website Global<br>Neo Crop Solutions.
+					</h4>
+
+					<p class="region-subtitle">CORPORATE</p>
+
+					<a href="https://neocropsolutions.com/" class="region-item">
+					<img src="../img/negara/singapura.png">
+					<div>
+						<strong>Singapore</strong><br>
+						<span>Singapore</span>
+					</div>
+					</a>
+				</div>
+
+				<!-- RIGHT -->
+				<div class="col-md-8">
+					<p class="region-question">
+					Apakah Anda Mencari Informasi Tentang Produk<br>
+					Dan Layanan Berdasarkan Wilayah?
+					</p>
+
+					<p class="region-subtitle">ASIA PASIFIC</p>
+
+					<div class="region-grid">
+					<a href="../index.html" class="region-item">
+						<img src="../img/negara/indonesia.png">
+						<div>
+						<strong>Indonesia</strong><br>
+						<span>Indonesia</span>
+						</div>
+					</a>
+
+					<a href="#" class="region-item">
+						<img src="../img/negara/india.png">
+						<div>
+						<strong>India</strong><br>
+						<span>India</span>
+						</div>
+					</a>
+
+					<a href="#" class="region-item">
+						<img src="../img/negara/philipine.png">
+						<div>
+						<strong>Philippines</strong><br>
+						<span>Philippines</span>
+						</div>
+					</a>
+
+					<a href="#" class="region-item">
+						<img src="../img/negara/myanmar.png">
+						<div>
+						<strong>Myanmar</strong><br>
+						<span>Myanmar</span>
+						</div>
+					</a>
+					</div>
+				</div>
+				</div>
+
+			</div>
+			</div>
+			<!-- /REGION POPUP -->
 
 			<!-- MAIN HEADER -->
 			<div id="main-header">
@@ -85,6 +159,8 @@
 
 		<!-- HERO SECTION -->
 		<section id="hero">
+			<img src="../img/bg_utama.png" class="hero-bg" alt="Background Produk">
+  			<div class="hero-overlay-diagonal"></div>
 			<div class="hero-text">
 				<h2 class="text-utama">SIAPAKAH</h2><h2 class="text-highlight">KAMI?</h2>
 				<p>Perusahaan Ilmu Pertanian Dengan</p>
@@ -228,20 +304,20 @@
 							<img src="../img/footer_logo.png" class="footer-logo">
 							<p class="follow">FOLLOW US</p>
 							<div class="sosial">
-								<a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-								<a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-								<a href="#"><i class="fa-brands fa-square-youtube"></i></a>
-								<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+								<a href="https://www.facebook.com/profile.php?id=61581358156948"><i class="fa-brands fa-square-facebook"></i></a>
+								<a href="https://www.instagram.com/neocropsolutions_id?igsh=MXhidmxrN2JrdzA5aQ=="><i class="fa-brands fa-square-instagram"></i></a>
+								<a href="https://youtube.com/@neocropsolutionsid?si=HPsQY5SffyX7FKek"><i class="fa-brands fa-square-youtube"></i></a>
+								<a href="https://www.linkedin.com/company/neo-crop-solutions/"><i class="fa-brands fa-linkedin"></i></a>
 							</div>
 						</div>
 
 						<!-- Menu Tengah -->
 						<div class="col-md-4">
 							<ul class="footer-menu">
-								<li>TENTANG KAMI</li>
-								<li>SOLUSI</li>
-								<li>KARIR</li>
-								<li>BERITA</li>
+								<li><a href="../pages/tentang_kami.html">TENTANG KAMI</a></li>
+								<li><a href="../pages/solusi.html">SOLUSI</a></li>
+								<li><a href="../pages/karir.html">KARIR</a></li>
+								<li><a href="../pages/berita.html">BERITA</a></li>
 							</ul>
 						</div>
 
@@ -249,7 +325,7 @@
 						<div class="col-md-4 text-md-start text-center">
 							<p class="question">ADA PERTANYAAN?</p>
 							<p class="help">KAMI SIAP BANTU</p>
-							<a href="#" class="btn-contact">HUBUNGI KAMI</a>
+							<a href="../pages/kontak.html" class="btn btn-success">HUBUNGI KAMI</a>
 						</div>
 
 					</div>
@@ -263,6 +339,18 @@
 			</div>
 		</footer>
 		<!-- /FOOTER -->
+
+		<!-- FLOATING WHATSAPP -->
+		<div id="float_wa">
+		<a 
+		href="https://wa.me/6285731882667" 
+		class="wa-float" 
+		target="_blank"
+		aria-label="Chat WhatsApp"
+		>
+		<i class="fa-brands fa-whatsapp"></i>
+		</a>
+		</div>
 
 		<!-- jQuery Plugins -->
 		<script src="../js/jquery.min.js"></script>
